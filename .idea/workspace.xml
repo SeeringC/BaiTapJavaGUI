@@ -5,23 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a88b4675-efe6-49c5-94ea-8f37a280b726" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/delete/Messenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/delete/MessengerSelectionTab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Image/Bird.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Image/Dog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Image/Fish.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Image/Penguin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/delete/MessengerSelectionTab.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo Images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo Images/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo Images/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo Images/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Image/Land.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Image/RunningDog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Image/Underwater.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/delete/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/delete/Facebook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/delete/MessengerSelectionTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/delete/MessengerSelectionTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/delete/UIManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/delete/UIManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/CSS/CSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/CSS/CSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Image/Chat Background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Image/ChatBackground.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Image/Profile Picture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Image/ProfilePicture.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/delete/Messenger.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/delete/Messenger.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/delete/MessengerChat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/delete/MessengerChat.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/delete/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/delete/Facebook.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/delete/Facebook.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/delete/Facebook.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/delete/MessengerSelectionTab.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/delete/MessengerSelectionTab.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Adimin/Documents/GitHub/BaiTapJavaGUI/src/main/resources/Image",
+    "last_opened_file_path": "C:/Users/Admin/JavaCodes/delete/src/main/resources/Image",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.32528734",
@@ -74,9 +72,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\JavaCodes\delete\src\main\resources\Image" />
       <recent name="C:\Users\Adimin\Documents\GitHub\BaiTapJavaGUI\src\main\resources\Image" />
       <recent name="C:\Users\Admin\JavaCodes\delete\Lib" />
-      <recent name="C:\Users\Admin\JavaCodes\delete\src\main\resources\Image" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

@@ -52,3 +52,9 @@
 .user-background-avatar {
      -fx-background-radius: 15;
 }
+
+.social-direct-button {
+     -fx-background-color: Grey;
+     -fx-background-radius: 15;
+     -fx-font-size: 30;
+}

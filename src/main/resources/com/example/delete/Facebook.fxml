@@ -1,16 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
+<?import com.gluonhq.charm.glisten.control.Avatar?>
+<?import com.jfoenix.controls.JFXTextArea?>
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.delete.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<Pane fx:id="currentPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="814.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.delete.Facebook">
+   <children>
+      <BorderPane prefHeight="814.0" prefWidth="414.0">
+         <top>
+            <AnchorPane prefHeight="83.0" prefWidth="414.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label prefHeight="83.0" prefWidth="200.0" text="Facebook">
+                     <font>
+                        <Font name="System Bold" size="34.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="217.0" layoutY="17.0" minWidth="42.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="42.0" styleClass="action-button" stylesheets="@../../../CSS/CSS.css">
+                     <graphic>
+                        <FontIcon iconLiteral="fas-plus" iconSize="20" />
+                     </graphic>
+                  </Button>
+                  <Button layoutX="280.0" layoutY="17.0" minWidth="45.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="45.0" styleClass="action-button" stylesheets="@../../../CSS/CSS.css">
+                     <graphic>
+                        <FontIcon iconLiteral="fas-search" iconSize="20" />
+                     </graphic>
+                  </Button>
+                  <Button layoutX="344.0" layoutY="19.0" mnemonicParsing="false" onAction="#switchToMessenger" prefHeight="41.0" prefWidth="43.0" styleClass="action-button" stylesheets="@../../../CSS/CSS.css">
+                     <graphic>
+                        <FontIcon iconLiteral="fab-facebook-messenger" iconSize="20" />
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </top>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="414.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane layoutY="13.0" prefHeight="92.0" prefWidth="118.0">
+                     <children>
+                        <Avatar layoutX="14.0" layoutY="8.0" radius="30.0">
+                           <image>
+                              <Image url="@../../../Image/Dog.jpg" />
+                           </image>
+                        </Avatar>
+                        <Label layoutX="79.0" layoutY="17.0" prefHeight="27.0" prefWidth="40.0" text="Dog">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <ImageView fitHeight="275.0" fitWidth="416.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Image/RunningDog.jpg" />
+                     </image>
+                  </ImageView>
+                  <JFXTextArea focusColor="#405aa800" layoutX="3.0" layoutY="136.0" prefHeight="140.0" prefWidth="411.0" text="Feeling dope.&#10;I want some new friend.&#10;Just wonder.&#10;Follow me!&#10;#runningdog&#10;#highonlife&#10;&#10;" unFocusColor="#4d4d4d00">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </JFXTextArea>
+               </children>
+            </AnchorPane>
+         </center>
+         <bottom>
+            <AnchorPane prefHeight="105.0" prefWidth="414.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button layoutX="23.0" layoutY="45.0" minWidth="40.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="54.0" styleClass="social-button" stylesheets="@../../../CSS/CSS.css">
+                     <graphic>
+                        <FontIcon iconLiteral="fas-home" iconSize="30" />
+                     </graphic>
+                  </Button>
+                  <Button layoutX="88.0" layoutY="44.0" minWidth="40.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="54.0" styleClass="social-button" stylesheets="@../../../CSS/CSS.css">
+                     <graphic>
+                        <FontIcon iconLiteral="fas-play-circle" iconSize="30" />
+                     </graphic>
+                  </Button>
+                  <Button layoutX="170.0" layoutY="48.0" minWidth="40.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="54.0" styleClass="social-button" stylesheets="@../../../CSS/CSS.css">
+                     <graphic>
+                        <FontIcon iconLiteral="fas-people-arrows" iconSize="30" />
+                     </graphic>
+                  </Button>
+                  <Button layoutX="259.0" layoutY="48.0" minWidth="40.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="54.0" styleClass="social-button" stylesheets="@../../../CSS/CSS.css">
+                     <graphic>
+                        <FontIcon iconLiteral="far-bell" iconSize="30" />
+                     </graphic>
+                  </Button>
+                  <Button layoutX="325.0" layoutY="47.0" minWidth="40.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="54.0" styleClass="social-button" stylesheets="@../../../CSS/CSS.css">
+                     <graphic>
+                        <FontIcon iconLiteral="fas-bars" iconSize="30" />
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </bottom>
+      </BorderPane>
+   </children>
+</Pane>
