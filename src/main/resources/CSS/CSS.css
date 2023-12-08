@@ -26,4 +26,29 @@
 .friend-sent-message {
      -fx-background-color: #e6a0eb; /* Pink background */
      -fx-background-radius: 15;
- }
+}
+
+.utility-button {
+     -fx-background-color: transparent;
+     -fx-text-fill: #1929d9; /* Blue text fill */
+}
+
+.social-button {
+     -fx-background-color: transparent;
+}
+
+.search-text-field {
+     -fx-border-radius: 15;
+     -fx-border-width: 1;
+     -fx-border-color: #2b2828; /* Black */
+     -fx-background-color: transparent;
+}
+
+.chat-text-field {
+     -fx-background-color: transparent;
+     -fx-border-color: transparent;
+}
+
+.user-background-avatar {
+     -fx-background-radius: 15;
+}
