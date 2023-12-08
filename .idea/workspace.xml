@@ -5,36 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a88b4675-efe6-49c5-94ea-8f37a280b726" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/ikonli-fontawesome5-pack-12.3.1-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/ikonli-fontawesome5-pack-12.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/jfoenix-9.0.10-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/jfoenix-9.0.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/delete/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/delete/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/delete/MessengerChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/delete/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/delete/UILayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/delete/UIManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/CSS/CSS.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Image/Chat Background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Image/Profile Picture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/delete/Messenger.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/delete/MessengerChat.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/delete/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/delete/Messenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/delete/MessengerSelectionTab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Image/Bird.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Image/Dog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Image/Fish.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Image/Penguin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/delete/MessengerSelectionTab.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/CSS/CSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/CSS/CSS.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Image/Chat Background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Image/ChatBackground.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Image/Profile Picture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Image/ProfilePicture.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/delete/Messenger.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/delete/Messenger.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/delete/MessengerChat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/delete/MessengerChat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/delete/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/delete/Facebook.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +49,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2YwYQuu689n10XPFICGO6pwnVqJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -73,33 +63,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Admin/JavaCodes/delete/Lib",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Adimin/Documents/GitHub/BaiTapJavaGUI/src/main/resources/Image",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.32528734",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Adimin\Documents\GitHub\BaiTapJavaGUI\src\main\resources\Image" />
       <recent name="C:\Users\Admin\JavaCodes\delete\Lib" />
       <recent name="C:\Users\Admin\JavaCodes\delete\src\main\resources\Image" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="BaiTapJavaGUI" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="BaiTapJavaGUI" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

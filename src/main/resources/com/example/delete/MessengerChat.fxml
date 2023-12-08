@@ -12,8 +12,7 @@
 <?import javafx.scene.text.Font?>
 <?import org.kordamp.ikonli.javafx.FontIcon?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="814.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="814.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.delete.MessengerChat">
    <children>
       <BorderPane prefHeight="814.0" prefWidth="414.0">
          <top>
@@ -31,7 +30,7 @@
                   </Button>
                   <ImageView fitHeight="67.0" fitWidth="93.0" layoutX="45.0" layoutY="42.0" pickOnBounds="true">
                      <image>
-                        <Image url="@../../../Image/Profile%20Picture.jpg" />
+                        <Image url="@../../../Image/Profile Picture.jpg" />
                      </image>
                   </ImageView>
                   <Label layoutX="146.0" layoutY="44.0" text="User Name">
@@ -47,7 +46,7 @@
                         <Font size="16.0" />
                      </font>
                   </Label>
-                  <Button layoutX="9.0" layoutY="61.0" mnemonicParsing="false" styleClass="back-button" stylesheets="@../../../CSS/CSS.css">
+                  <Button layoutX="9.0" layoutY="61.0" mnemonicParsing="false" onAction="#switchToMessenger" styleClass="back-button" stylesheets="@../../../CSS/CSS.css">
                      <graphic>
                         <FontIcon iconLiteral="fas-chevron-left" iconSize="20" />
                      </graphic>
