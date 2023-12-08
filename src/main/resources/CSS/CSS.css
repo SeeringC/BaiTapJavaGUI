@@ -1,0 +1,29 @@
+.call-button {
+    -fx-background-color: #b0a0a0; /* Grey background */
+    -fx-background-radius: 15;
+}
+
+.action-button {
+    -fx-background-color: #a5e3f0; /* Cyan background */
+    -fx-background-radius: 15;
+}
+
+.back-button {
+    -fx-background-color: transparent;
+}
+
+.message-text-area {
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-border-color: #b0a0a0;
+}
+
+.self-sent-message {
+    -fx-background-color: #7075db; /* Blue background */
+    -fx-background-radius: 15;
+}
+
+.friend-sent-message {
+     -fx-background-color: #e6a0eb; /* Pink background */
+     -fx-background-radius: 15;
+ }
